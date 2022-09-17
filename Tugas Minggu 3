@@ -1,0 +1,11 @@
+# tugas minggu 3
+answer = input("what's greeting ?")
+
+if answer == ("hallo"):
+    print("0$")
+elif answer == "hello, newman":
+    print("0$")
+elif answer.startswith("h") :
+    print("20$")
+else :
+    print("100$")
