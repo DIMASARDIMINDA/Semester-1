@@ -1,9 +1,9 @@
-# tugas minggu 3
-answer = input("what's greeting ?")
+## tugas minggu 3
+answer = input("what's greeting ?").lower()
 
 if answer == ("hallo"):
     print("0$")
-elif answer == "hello, newman":
+elif answer == "hallo, newman":
     print("0$")
 elif answer.startswith("h") :
     print("20$")
